@@ -69,12 +69,6 @@
             margin-top: 0;
         }
 
-        .highlight {
-            color: var(--yellow);
-            font-weight: bold;
-        }
-
-        /* Galeria de 2 Fotos principais */
         .photo-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -88,11 +82,6 @@
             overflow: hidden;
             border: 1px solid #333;
             transition: transform 0.3s ease;
-        }
-
-        .photo-card:hover {
-            transform: scale(1.02);
-            border-color: var(--pink);
         }
 
         .photo-card img {
@@ -124,6 +113,7 @@
             font-weight: 800;
             text-transform: uppercase;
             box-shadow: 0 0 30px rgba(255, 0, 127, 0.4);
+            display: inline-block;
         }
 
         footer {
@@ -138,44 +128,50 @@
 
     <header>
         <h1>ESBÓRNIA</h1>
-        <div class="target-friends">ALVO: CAIO, BRENO E GRANJA</div>
+        <div class="target-friends">CONVOCAÇÃO: CAIO, BRENO E GRANJA</div>
     </header>
 
     <section>
         <div class="card">
-            <h2>🚨 CONVOCAÇÃO OBRIGATÓRIA</h2>
-            <p>Amigos servem para muitas coisas: dar conselho ruim, rir da cara um do outro e, principalmente, <strong>impedir que a gente perca a Esbórnia em setembro</strong>. O contrato de amizade de vocês acaba de ser atualizado.</p>
+            <h2>🚨 AVISO AOS NAVEGANTES</h2>
+            <p>Amigos servem para muitas coisas: dar conselho ruim, rir da derrota um do outro e, acima de tudo, <strong>garantir que ninguém fique de fora da Esbórnia</strong>. O contrato social do nosso grupo acaba de ser atualizado e não aceita cancelamentos.</p>
         </div>
 
         <div class="photo-grid">
             <div class="photo-card">
                 <img src="foto_da_galera_na_festa.jpeg" alt="Resenha na casa do Breno">
-                <div class="photo-caption">A resenha na casa do Breno foi lendária... mas tá na hora de passar vergonha profissional em 69kV!</div>
+                <div class="photo-caption">A resenha na casa do Breno foi top... mas a Esbórnia vai ser outro patamar!</div>
             </div>
             <div class="photo-card">
                 <img src="foto_engracada.jpeg" alt="Breno Derrotado">
-                <div class="photo-caption">Olha esse semblante! O Breno precisa de 12h de Open Bar pra recuperar a alma.</div>
+                <div class="photo-caption">O Breno já está em modo "derrota". Ele precisa de 12h de open bar para ressuscitar!</div>
             </div>
         </div>
 
         <div class="card">
             <h2>Por que vocês NÃO podem dizer não?</h2>
             <ul style="list-style: none; padding: 0;">
-                <li style="margin-bottom: 15px;">🔥 <strong>Pelo Breno:</strong> Ele não pode ficar com essa cara de derrotado pra sempre.</li>
-                <li style="margin-bottom: 15px;">🔥 <strong>Pelo Granja:</strong> Se ele não for, a gente vai cobrar esse migué pelo resto de 2026.</li>
-                <li style="margin-bottom: 15px;">🔥 <strong>Pelo Caio:</strong> Alguém tem que agitar esse grupo, senão a gente só vai pro shopping.</li>
-                <li style="margin-bottom: 15px;">🔥 <strong>Pela Delux:</strong> É a melhor estrutura de Recife. São 12 horas!</li>
+                <li style="margin-bottom: 15px;">🔥 <strong>Pelo Breno:</strong> Ele não pode carregar essa cara de sono sozinho em setembro.</li>
+                <li style="margin-bottom: 15px;">🔥 <strong>Pela Granja:</strong> Se ela não for, a gente vai cobrar esse migué dela por gerações.</li>
+                <li style="margin-bottom: 15px;">🔥 <strong>Pelo Caio:</strong> Alguém tem que garantir que a gente não vai acabar no shopping de novo.</li>
+                <li style="margin-bottom: 15px;">🔥 <strong>Pela Delux:</strong> 12 horas de festa em Recife. É questão de honra.</li>
             </ul>
         </div>
 
+        <div class="card" style="border-color: var(--yellow); text-align: center;">
+            <p style="margin: 0; color: var(--yellow);">
+                <strong>ULTIMATO:</strong> Se o Breno inventar desculpa, a Granja der migué e o Caio não agitar, eu mudo o nome do grupo para "Amigos de Fachada".
+            </p>
+        </div>
+
         <div class="cta-container">
-            <a href="https://www.ingresse.com" target="_blank" class="btn">EU VOU (E NÃO RECLAMO)</a>
+            <a href="https://www.ingresse.com" target="_blank" class="btn">TO DENTRO (NÃO TENHO ESCOLHA)</a>
         </div>
     </section>
 
     <footer>
         RECIFE | SETEMBRO | ESBÓRNIA <br>
-        Se você não for, o Granja é quem vai contar as histórias.
+        Se você não for, a Granja é quem vai contar as histórias (e a gente não quer isso).
     </footer>
 
 </body>
